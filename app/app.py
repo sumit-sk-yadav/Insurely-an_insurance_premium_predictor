@@ -77,7 +77,7 @@ st.markdown("""
 # Streamlit app config
 st.set_page_config(page_title="Insurely", layout="centered")
 st.title("Insurely")
-st.subheader("an insurance premium predictor trained over premium details of over a million individuals")
+st.subheader("an insurance premium predictor")
 st.markdown("---")
 
 # Load model components
