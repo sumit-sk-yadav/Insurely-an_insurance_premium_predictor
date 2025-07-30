@@ -1,0 +1,50 @@
+shap_values.joblib
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Jupyter / notebook artifacts
+.ipynb_checkpoints
+
+# Environment
+.env
+*.env
+venv/
+env/
+.venv/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# Model training files (if unnecessary in app)
+checkpoints/
+runs/
+output/
+*.h5
+*.ckpt
+
+# Docker / build leftovers
+*.tar
+*.bak
+*.tmp
+
+# Data
+*.csv
+*.tsv
+*.parquet
+data/
